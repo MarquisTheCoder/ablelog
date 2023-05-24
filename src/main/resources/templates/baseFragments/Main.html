@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <main th:fragment="Main" class="min-w-full min-h-[50vh] flex flex-col">
+    <div class="min-h-full flex-col items-center justify-center">
+      <div class="px-5 pt-10 md:px-20 md:pt-6 pb-5 md:pb-0 w-full flex flex-row justify-center">
+        <h2 class="text-4xl font-bold mb-7">Who are we?</h2>
+      </div>
+
+      <div class="min-h-full px-5 md:px-20 gap-2 flex flex-col md:flex-row items-center justify-center pb-24 md:pb-10">
+        <div class="rounded overflow-hidden border-[1px] border-white/10 max-w-sm bg-black">
+          <!-- <div class="w-full h-28 overflow-hidden relative">
+            <img
+              class="w-full absolute top-[-80px] left-0"
+              th:src="(@{/img/san-antonio.jpg})"
+              alt="Sunset in the mountains"
+            />
+          </div> -->
+          <div class="h-48 px-6 py-4">
+            <div class="font-bold text-xl mb-2">FOUNDED IN SAN ANTONIO, TX</div>
+            <p class="text-base font-thin">
+              Ablelog, LLC. was founded in San Antonio, Texas with one goal in mind – to provide transportation services
+              that customers can rely on.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2 mb-3 flex flex-row justify-end">
+            <a href="" class="bg-white text-black font-thin py-2 px-2 rounded-sm">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="rounded overflow-hidden border-[1px] border-white/10 max-w-sm bg-black">
+          <!-- <div class="w-full h-28 overflow-hidden relative">
+            <img
+              class="w-full absolute top-[-80px] left-0"
+              th:src="(@{/img/logistics.jpg})"
+              alt="Sunset in the mountains"
+            />
+          </div> -->
+          <div class="h-48 px-6 py-4">
+            <div class="font-bold text-xl mb-2">FULL TRUCKING AND LOGISTIC SERVICES</div>
+            <p class="text-base font-thin">
+              Ablelog, LLC. is a full truckload logistics company that specializes in the transportation of dry products
+              throughout the United States.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2 mb-3 flex flex-row justify-end">
+            <a href="" class="bg-white text-black font-thin py-2 px-2 rounded-sm">Learn more ></a>
+          </div>
+        </div>
+
+        <div class="rounded overflow-hidden border-[1px] border-white/10 max-w-sm bg-black">
+          <!-- <div class="w-full h-28 overflow-hidden relative">
+            <img
+              class="w-full absolute top-[-70px] left-0"
+              th:src="(@{/img/truck-go-fast.jpg})"
+              alt="Sunset in the mountains"
+            />
+          </div> -->
+          <div class="h-48 px-6 py-4">
+            <div class="font-bold text-xl mb-2">FOCUSED ON-TIME DELIVERY, ALWAYS</div>
+            <p class="text-base font-thin">
+              Although times, industries, and technologies change, we believe that the key to our customers’ success
+              remains the same – constant communication, teamwork, and trust.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2 mb-3 flex flex-row justify-end">
+            <a href="" class="bg-white text-black font-thin py-2 px-2 rounded-sm"> Learn More ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="min-h-[40rem] min-w-full overflow-hidden relative">
+      <img
+        th:src="(@{img/assets/truck-yellow.jpg})"
+        alt=""
+        class="absolute top-[-200px] opacity-25 left-0 min-h-[20rem] w-[100vw]"
+      />
+
+      <div class="md:px-20 w-full h-full flex flex-col md:flex-row items-center justify-center">
+        <div class="md:w-[50%] flex justify-center items-center">
+          <img th:src="(@{img/assets/sba.JPG})" alt="" class="max-w-[15rem] md:max-w-sm mt-40 md:mt-14 mb-14" />
+        </div>
+        <div class="md:w-[50%]">
+          <h1 class="text-4xl text-white text-bold text-center mb-4">VETERAN OWNED BUSINESS</h1>
+          <p class="text-2xl font-thin text-center px-10 md:px-0">
+            Able Logistics LILC was founded in 2020 by US Army Veteran Christopher McCoy. After a 20 year military
+            career culminating in the logistics field as a contract officer and billing official Chris learned that his
+            services would be well suited in the civilian sector as logistician
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="min-h-[15rem] min-w-full overflow-hidden relative flex flex-col items-center px-10 md:px-0">
+      <div class="pt-10 md:pt-20 pb-5 md:pb-5">
+        <h2 class="font-bold text-3xl mb-12">WHAT SETS US APART?</h2>
+      </div>
+      <div class="md:px-20 flex md:flex-row flex-col gap-32 w-full justify-center">
+        <div>
+          <h2 class="text-2xl text-bold text-center">PARTNERSHIPS</h2>
+          <p class="font-thin text-center text-[1.2rem]">
+            Treat our customer relationships as partnerships. We want to know their problems, help solve their problems,
+            and grow with them over time.
+          </p>
+        </div>
+        <div>
+          <h2 class="text-2xl text-bold text-center">PERFECTION</h2>
+          <p class="font-thin text-center text-[1.2rem]">
+            We strive for perfection to ensure the highest quality of service and customer satisfaction
+          </p>
+        </div>
+        <div>
+          <h2 class="text-2xl text-bold text-center">PERFORMANCE</h2>
+          <p class="font-thin text-center text-[1.2rem]">
+            As a small company, we have the ability to adapt to our customers’ needs to ensure the highest performance.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:h-[25rem] min-w-full overflow-hidden relative mt-20 md:mt-24">
+      <img
+        th:src="(@{img/assets/truck-red.jpg})"
+        alt=""
+        class="absolute top-[-700px] -z-10 opacity-25 left-0 w-[100vw]"
+      />
+      <div class="md:px-20 w-full h-full flex flex-col md:flex-row items-center justify-center">
+        <div class="md:w-[50%] flex flex-col items-center">
+          <h1 class="text-2xl md:text-4xl text-white text-center font-thin">
+            Our focus remains the same, pickup on time and deliver on time.
+          </h1>
+          <a href="" class="text-1xl font-bold text-center mt-10 bg-white text-black px-5 py-2 rounded-sm">
+            LEARN MORE
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:h-[15rem] min-w-full relative">
+      <img th:src="(@{img/truck-go-fast.jpg})" alt="" class="absolute top-[-700px] -z-10 opacity-25 left-0 w-[100vw]" />
+      <div class="md:px-20 w-full h-full flex flex-col md:flex-row items-center justify-center">
+        <div class="flex h-full w-full flex-col items-center justify-center">
+          <h1 class="text-2xl md:text-4xl text-white text-center font-thin mt-20 md:mt-28">
+            Ready to talk to us? contact us today!
+          </h1>
+          <a href="" class="text-1xl font-bold text-center mt-10 bg-white text-black px-5 py-2 rounded-sm">
+            CONTACT US
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+</html>

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <body th:fragment="Body">
+    <section id="main-wrapper" class="main-wrapper w-100 h-[100vw]" role="main-wrapper">
+      <header th:replace="(~{baseFragments/Header :: Header})"></header>
+      <main th:replace="(~{baseFragments/Main :: Main })"></main>
+      <footer th:replace="(~{baseFragments/footer :: footer})"></footer>
+    </section>
+  </body>
+</html>
