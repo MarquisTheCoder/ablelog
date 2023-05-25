@@ -10,11 +10,11 @@
 	</parent>
 	<groupId>com.trucking</groupId>
 	<artifactId>chris</artifactId>
-	<version>3.6.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>chris</name>
 	<description>Trucking website for Able Log</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		
