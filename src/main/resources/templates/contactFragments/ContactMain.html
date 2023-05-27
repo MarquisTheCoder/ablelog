@@ -11,15 +11,21 @@
       <div class="flex flex-col w-64 gap-10 white">
         <label for="name" class="text-center font-bold">Name</label>
         <input type="text" name="name" class="grow-0 text-black" />
-        <label for="name" class="text-center mt-4 font-bold">Email</label>
+
+        <label for="email" class="text-center mt-4 font-bold">Email</label>
         <input type="email" name="email" class="text-black" />
-        <label for="name" class="text-center mt-4 font-bold">Message</label>
+
+        <label for="message" class="text-center mt-4 font-bold">Message</label>
         <input type="text" name="message" class="text-black" />
+
+        <label for="phone" class="text-center mt-4 font-bold">Phone Number</label>
+        <input type="tel" name="phone" class="text-black" />
+
         <input type="hidden" name="_gotcha" style="display: none !important" />
 
         <label for="resume" class="text-center mt-4 font-bold">Resume</label>
-
         <input type="file" name="resume" />
+
         <button class="mt-4 px-5 py-2 bg-blue-700 text-white" type="submit">Send</button>
       </div>
     </form>
